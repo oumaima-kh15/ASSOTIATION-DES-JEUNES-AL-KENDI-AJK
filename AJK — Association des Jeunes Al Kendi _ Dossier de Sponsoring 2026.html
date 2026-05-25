@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://superlative-torrone-ba2adc.netlify.app/ -->
+<html lang="fr" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJK — Association des Jeunes Al Kendi | Dossier de Sponsoring 2026</title>
+    <script src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/saved_resource"></script>
+    <script src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/lucide@latest"></script>
+    <link href="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/css2" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { inter: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(0,145,255,0.2); }
+            50% { box-shadow: 0 0 40px rgba(0,145,255,0.4); }
+        }
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes count-up {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .animate-on-scroll.from-left {
+            transform: translateX(-30px);
+        }
+        .animate-on-scroll.from-left.visible {
+            transform: translateX(0);
+        }
+        .animate-on-scroll.from-right {
+            transform: translateX(30px);
+        }
+        .animate-on-scroll.from-right.visible {
+            transform: translateX(0);
+        }
+        .animate-on-scroll.scale {
+            transform: scale(0.9);
+        }
+        .animate-on-scroll.scale.visible {
+            transform: scale(1);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #050505 0%, #0a0a0a 30%, #001233 70%, #050505 100%);
+            background-size: 200% 200%;
+            animation: gradient-shift 15s ease infinite;
+        }
+
+        .glass {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .glass-light {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            border-color: rgba(0,145,255,0.3);
+            box-shadow: 0 20px 60px rgba(0,145,255,0.1);
+        }
+
+        .text-gradient-blue {
+            background: linear-gradient(135deg, #0091FF, #00D4FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .text-gradient-green {
+            background: linear-gradient(135deg, #06C755, #00D4FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .text-gradient-gold {
+            background: linear-gradient(135deg, #FFC700, #FF8A00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .pricing-bronze { border-top: 3px solid #CD7F32; }
+        .pricing-silver { border-top: 3px solid #C0C0C0; }
+        .pricing-gold { border-top: 3px solid #FFC700; }
+
+        .pricing-gold:hover {
+            border-color: rgba(255,199,0,0.5);
+            box-shadow: 0 20px 60px rgba(255,199,0,0.15);
+        }
+        .pricing-silver:hover {
+            border-color: rgba(192,192,192,0.5);
+            box-shadow: 0 20px 60px rgba(192,192,192,0.1);
+        }
+        .pricing-bronze:hover {
+            border-color: rgba(205,127,50,0.5);
+            box-shadow: 0 20px 60px rgba(205,127,50,0.1);
+        }
+
+        .quote-mark {
+            font-size: 120px;
+            line-height: 1;
+            opacity: 0.1;
+            position: absolute;
+            top: -20px;
+            left: -10px;
+        }
+
+        .nav-active {
+            color: #0091FF !important;
+        }
+
+        .dot-pattern {
+            background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(0,145,255,0.3), transparent);
+        }
+
+        @media (max-width: 768px) {
+            .timeline-line { left: 20px; }
+        }
+
+        .floating-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.07;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .scroll-indicator {
+            animation: float 2s ease-in-out infinite;
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #0091FF; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #33aaff; }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.-bottom-40{bottom:-10rem}.-left-48{left:-12rem}.-right-20{right:-5rem}.-right-40{right:-10rem}.-top-20{top:-5rem}.-top-48{top:-12rem}.bottom-20{bottom:5rem}.bottom-4{bottom:1rem}.left-0{left:0px}.left-1\/2{left:50%}.left-3{left:0.75rem}.left-4{left:1rem}.right-0{right:0px}.right-4{right:1rem}.top-0{top:0px}.top-1\/2{top:50%}.top-20{top:5rem}.top-3{top:0.75rem}.top-4{top:1rem}.bottom-6{bottom:1.5rem}.right-6{right:1.5rem}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-1{margin-left:0.25rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-16{margin-top:4rem}.mt-2{margin-top:0.5rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-\[3\/2\]{aspect-ratio:3/2}.h-1{height:0.25rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-24{height:6rem}.h-3{height:0.75rem}.h-32{height:8rem}.h-4{height:1rem}.h-40{height:10rem}.h-48{height:12rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-80{height:20rem}.h-9{height:2.25rem}.h-96{height:24rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-16{width:4rem}.w-2{width:0.5rem}.w-24{width:6rem}.w-3{width:0.75rem}.w-32{width:8rem}.w-4{width:1rem}.w-40{width:10rem}.w-48{width:12rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-64{width:16rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-80{width:20rem}.w-9{width:2.25rem}.w-96{width:24rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.flex-shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-4{--tw-translate-y:1rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.resize-none{resize:none}.appearance-none{-webkit-appearance:none;appearance:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.-space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(-0.5rem * var(--tw-space-x-reverse));margin-left:calc(-0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.scroll-smooth{scroll-behavior:smooth}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-t{border-top-width:1px}.border-\[\#0091FF\]\/20{border-color:rgb(0 145 255 / 0.2)}.border-\[\#050505\]{--tw-border-opacity:1;border-color:rgb(5 5 5 / var(--tw-border-opacity, 1))}.border-\[\#06C755\]\/20{border-color:rgb(6 199 85 / 0.2)}.border-\[\#C0C0C0\]\/30{border-color:rgb(192 192 192 / 0.3)}.border-\[\#CD7F32\]\/30{border-color:rgb(205 127 50 / 0.3)}.border-\[\#FFC700\]\/20{border-color:rgb(255 199 0 / 0.2)}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.bg-\[\#050505\]{--tw-bg-opacity:1;background-color:rgb(5 5 5 / var(--tw-bg-opacity, 1))}.bg-\[\#0091FF\]{--tw-bg-opacity:1;background-color:rgb(0 145 255 / var(--tw-bg-opacity, 1))}.bg-\[\#0091FF\]\/10{background-color:rgb(0 145 255 / 0.1)}.bg-\[\#0091FF\]\/30{background-color:rgb(0 145 255 / 0.3)}.bg-\[\#0091FF\]\/90{background-color:rgb(0 145 255 / 0.9)}.bg-\[\#00D4FF\]{--tw-bg-opacity:1;background-color:rgb(0 212 255 / var(--tw-bg-opacity, 1))}.bg-\[\#00D4FF\]\/10{background-color:rgb(0 212 255 / 0.1)}.bg-\[\#06C755\]{--tw-bg-opacity:1;background-color:rgb(6 199 85 / var(--tw-bg-opacity, 1))}.bg-\[\#06C755\]\/10{background-color:rgb(6 199 85 / 0.1)}.bg-\[\#06C755\]\/30{background-color:rgb(6 199 85 / 0.3)}.bg-\[\#06C755\]\/90{background-color:rgb(6 199 85 / 0.9)}.bg-\[\#080808\]{--tw-bg-opacity:1;background-color:rgb(8 8 8 / var(--tw-bg-opacity, 1))}.bg-\[\#0a0a0a\]{--tw-bg-opacity:1;background-color:rgb(10 10 10 / var(--tw-bg-opacity, 1))}.bg-\[\#FF3B3B\]{--tw-bg-opacity:1;background-color:rgb(255 59 59 / var(--tw-bg-opacity, 1))}.bg-\[\#FF3B3B\]\/10{background-color:rgb(255 59 59 / 0.1)}.bg-\[\#FFC700\]{--tw-bg-opacity:1;background-color:rgb(255 199 0 / var(--tw-bg-opacity, 1))}.bg-\[\#FFC700\]\/10{background-color:rgb(255 199 0 / 0.1)}.bg-\[\#FFC700\]\/30{background-color:rgb(255 199 0 / 0.3)}.bg-\[\#FFC700\]\/90{background-color:rgb(255 199 0 / 0.9)}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-\[\#0091FF\]{--tw-gradient-from:#0091FF var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 145 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#0091FF\]\/20{--tw-gradient-from:rgb(0 145 255 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 145 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#0091FF\]\/5{--tw-gradient-from:rgb(0 145 255 / 0.05) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 145 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#050505\]{--tw-gradient-from:#050505 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 5 5 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#06C755\]{--tw-gradient-from:#06C755 var(--tw-gradient-from-position);--tw-gradient-to:rgb(6 199 85 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#C0C0C0\]{--tw-gradient-from:#C0C0C0 var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 192 192 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-\[\#FFC700\]{--tw-gradient-from:#FFC700 var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 199 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-\[\#C0C0C0\]{--tw-gradient-to:rgb(192 192 192 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #C0C0C0 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-\[\#FFC700\]{--tw-gradient-to:rgb(255 199 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #FFC700 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-\[\#0091FF\]{--tw-gradient-to:#0091FF var(--tw-gradient-to-position)}.to-\[\#00D4FF\]{--tw-gradient-to:#00D4FF var(--tw-gradient-to-position)}.to-\[\#06C755\]{--tw-gradient-to:#06C755 var(--tw-gradient-to-position)}.to-\[\#06C755\]\/20{--tw-gradient-to:rgb(6 199 85 / 0.2) var(--tw-gradient-to-position)}.to-\[\#06C755\]\/5{--tw-gradient-to:rgb(6 199 85 / 0.05) var(--tw-gradient-to-position)}.to-\[\#FF8A00\]{--tw-gradient-to:#FF8A00 var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-12{padding-top:3rem;padding-bottom:3rem}.pl-4{padding-left:1rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-right{text-align:right}.font-inter{font-family:Inter, sans-serif}.font-serif{font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-light{font-weight:300}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-\[1\.05\]{line-height:1.05}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-\[\#0091FF\]{--tw-text-opacity:1;color:rgb(0 145 255 / var(--tw-text-opacity, 1))}.text-\[\#00D4FF\]{--tw-text-opacity:1;color:rgb(0 212 255 / var(--tw-text-opacity, 1))}.text-\[\#06C755\]{--tw-text-opacity:1;color:rgb(6 199 85 / var(--tw-text-opacity, 1))}.text-\[\#C0C0C0\]{--tw-text-opacity:1;color:rgb(192 192 192 / var(--tw-text-opacity, 1))}.text-\[\#CD7F32\]{--tw-text-opacity:1;color:rgb(205 127 50 / var(--tw-text-opacity, 1))}.text-\[\#FF3B3B\]{--tw-text-opacity:1;color:rgb(255 59 59 / var(--tw-text-opacity, 1))}.text-\[\#FFC700\]{--tw-text-opacity:1;color:rgb(255 199 0 / var(--tw-text-opacity, 1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.placeholder-gray-500::placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128 / var(--tw-placeholder-opacity, 1))}.opacity-20{opacity:0.2}.opacity-30{opacity:0.3}.opacity-5{opacity:0.05}.opacity-0{opacity:0}.opacity-100{opacity:1}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-blue-500\/20{--tw-shadow-color:rgb(59 130 246 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.blur-\[100px\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[120px\]{--tw-blur:blur(120px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[80px\]{--tw-blur:blur(80px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-xl{--tw-blur:blur(24px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-\[1\.02\]:hover{--tw-scale-x:1.02;--tw-scale-y:1.02;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[\#0077CC\]:hover{--tw-bg-opacity:1;background-color:rgb(0 119 204 / var(--tw-bg-opacity, 1))}.hover\:bg-\[\#C0C0C0\]\/10:hover{background-color:rgb(192 192 192 / 0.1)}.hover\:bg-\[\#CD7F32\]\/10:hover{background-color:rgb(205 127 50 / 0.1)}.hover\:bg-\[\#e6b400\]:hover{--tw-bg-opacity:1;background-color:rgb(230 180 0 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:text-\[\#0091FF\]:hover{--tw-text-opacity:1;color:rgb(0 145 255 / var(--tw-text-opacity, 1))}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-blue-500\/20:hover{--tw-shadow-color:rgb(59 130 246 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.focus\:border-\[\#0091FF\]\/50:focus{border-color:rgb(0 145 255 / 0.5)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-1:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-\[\#0091FF\]\/20:focus{--tw-ring-color:rgb(0 145 255 / 0.2)}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:opacity-10{opacity:0.1}@media (min-width: 640px){.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}}@media (min-width: 768px){.md\:block{display:block}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:justify-end{justify-content:flex-end}.md\:p-10{padding:2.5rem}.md\:p-12{padding:3rem}.md\:pl-12{padding-left:3rem}.md\:pl-8{padding-left:2rem}.md\:pr-12{padding-right:3rem}.md\:text-right{text-align:right}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:col-span-1{grid-column:span 1 / span 1}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}.lg\:text-7xl{font-size:4.5rem;line-height:1}}</style></head>
+<body class="bg-[#050505] text-white font-inter">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500" style="background: rgba(5, 5, 5, 0.8); backdrop-filter: blur(16px); border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor;">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#hero" class="flex items-center gap-3 group">
+                <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/89096c57-f670-4df0-96a4-59c50b739e0f.png" alt="AJK Logo" class="h-9 w-9 rounded-full transition-transform duration-500 group-hover:scale-110">
+                <span class="font-semibold text-sm tracking-wide">AJK <span class="text-[#0091FF]">2026</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#apropos" class="text-sm text-gray-400 hover:text-[#0091FF] transition-colors nav-link">À propos</a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#mission" class="text-sm text-gray-400 hover:text-[#0091FF] transition-colors nav-link">Mission</a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#activites" class="text-sm text-gray-400 hover:text-[#0091FF] transition-colors nav-link">Activités</a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#evenements" class="text-sm text-gray-400 hover:text-[#0091FF] transition-colors nav-link">Événements</a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#sponsoring" class="text-sm text-gray-400 hover:text-[#0091FF] transition-colors nav-link">Sponsoring</a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="bg-[#0091FF] hover:bg-[#0077CC] text-white text-sm font-medium px-5 py-2 rounded-lg transition-all duration-300 hover:scale-105">Nous contacter</a>
+            </div>
+            <button id="menu-btn" class="md:hidden text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="menu" aria-hidden="true" class="lucide lucide-menu w-6 h-6"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0a0a0a] border-t border-white/5 px-6 py-4 space-y-3">
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#apropos" class="block text-sm text-gray-400 hover:text-[#0091FF] py-2 mobile-link">À propos</a>
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#mission" class="block text-sm text-gray-400 hover:text-[#0091FF] py-2 mobile-link">Mission</a>
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#activites" class="block text-sm text-gray-400 hover:text-[#0091FF] py-2 mobile-link">Activités</a>
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#evenements" class="block text-sm text-gray-400 hover:text-[#0091FF] py-2 mobile-link">Événements</a>
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#sponsoring" class="block text-sm text-gray-400 hover:text-[#0091FF] py-2 mobile-link">Sponsoring</a>
+            <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="block bg-[#0091FF] text-white text-sm font-medium px-5 py-2.5 rounded-lg text-center mt-2 mobile-link">Nous contacter</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-gradient min-h-screen flex items-center justify-center relative overflow-hidden">
+        <!-- Floating Shapes -->
+        <div class="floating-shape w-96 h-96 bg-[#0091FF] top-20 -left-48" style="animation-delay: 0s;"></div>
+        <div class="floating-shape w-80 h-80 bg-[#06C755] bottom-20 -right-40" style="animation-delay: 3s;"></div>
+        <div class="floating-shape w-64 h-64 bg-[#0091FF] top-1/2 left-1/2" style="animation-delay: 5s;"></div>
+
+        <!-- Dot pattern -->
+        <div class="absolute inset-0 dot-pattern opacity-30"></div>
+
+        <div class="relative z-10 text-center px-6 max-w-5xl mx-auto" style="animation: fadeInUp 1s ease-out;">
+            <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
+                <span class="w-2 h-2 bg-[#06C755] rounded-full animate-pulse"></span>
+                <span class="text-xs font-medium text-gray-300 tracking-wide">Dossier de Sponsoring 2026</span>
+            </div>
+
+            <div class="mb-8 flex justify-center">
+                <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/89096c57-f670-4df0-96a4-59c50b739e0f.png" alt="AJK Logo" class="h-24 w-24 rounded-2xl shadow-lg" style="animation: pulse-glow 3s ease-in-out infinite;">
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05] mb-6">
+                Association des Jeunes<br>
+                <span class="text-gradient-blue">Al Kendi</span>
+            </h1>
+
+            <p class="text-lg md:text-xl text-gray-400 font-light max-w-2xl mx-auto mb-4 leading-relaxed">
+                Investir dans la jeunesse, c'est investir dans l'avenir.
+            </p>
+            <p class="text-base text-gray-500 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
+                Accompagner les étudiants dans le développement de leurs compétences professionnelles, technologiques et humaines à travers des projets éducatifs, des formations et des initiatives à fort impact.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#sponsoring" class="bg-[#0091FF] hover:bg-[#0077CC] text-white font-medium px-8 py-3.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 flex items-center gap-2">
+                    <span>Devenir Partenaire</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#apropos" class="glass-light text-white font-medium px-8 py-3.5 rounded-xl transition-all duration-300 hover:scale-105 hover:bg-white/10 flex items-center gap-2">
+                    <span>Découvrir</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-4 h-4 scroll-indicator"><path d="m6 9 6 6 6-6"></path></svg>
+                </a>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-3 gap-6 mt-16 max-w-lg mx-auto">
+                <div class="text-center">
+                    <div class="text-2xl md:text-3xl font-semibold text-gradient-blue">3</div>
+                    <div class="text-xs text-gray-500 mt-1">Filières</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl md:text-3xl font-semibold text-gradient-green">5+</div>
+                    <div class="text-xs text-gray-500 mt-1">Événements</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl md:text-3xl font-semibold text-gradient-gold">100+</div>
+                    <div class="text-xs text-gray-500 mt-1">Étudiants</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discours Royal -->
+    <section class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 dot-pattern opacity-20"></div>
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <div class="animate-on-scroll glass rounded-2xl p-8 md:p-12 relative overflow-hidden visible">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-[#0091FF] rounded-full filter blur-[120px] opacity-5"></div>
+                <div class="relative z-10">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-[#FFC700]/10 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="crown" aria-hidden="true" class="lucide lucide-crown w-5 h-5 text-[#FFC700]"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"></path><path d="M5 21h14"></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-semibold text-[#FFC700] tracking-wide">Discours Royal</h3>
+                            <p class="text-xs text-gray-500">Sa Majesté le Roi Mohammed VI — Skhirat, 2008</p>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <span class="quote-mark text-[#0091FF] font-serif">"</span>
+                        <blockquote class="text-gray-300 font-light leading-relaxed text-base md:text-lg italic pl-4 md:pl-8">
+                            Si Dieu le Très Haut a réservé à chaque pays sa part de biens et de ressources, Il a gratifié le nôtre d'une richesse renouvelable, en l'occurrence nos ressources humaines. Il s'agit, en premier chef, de notre jeunesse ambitieuse, imprégnée d'amour pour sa patrie, fière de ses traditions séculaires, nantie d'une éducation saine. Ceci tient à la volonté des Marocains d'assurer une bonne éducation à leurs enfants et de leur inculquer les hautes valeurs morales et les vertus de l'attachement aux constantes suprêmes de la Nation, dans le cadre de la complémentarité entre la maison et l'école et de l'ouverture sur les innovations des temps modernes.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos / Présentation -->
+    <section id="apropos" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-on-scroll from-left visible">
+                    <div class="inline-flex items-center gap-2 bg-[#0091FF]/10 border border-[#0091FF]/20 rounded-full px-4 py-1.5 mb-6">
+                        <span class="text-xs font-medium text-[#0091FF] tracking-wide">Présentation</span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-6">
+                        L'Association des Jeunes<br><span class="text-gradient-blue">Al Kendi</span>
+                    </h2>
+                    <p class="text-gray-400 font-light leading-relaxed mb-6">
+                        L'Association des Jeunes Al Kendi (AJK) s'engage à accompagner les étudiants dans le développement de leurs compétences professionnelles, technologiques et humaines à travers des projets éducatifs, des formations et des initiatives à fort impact.
+                    </p>
+                    <p class="text-gray-400 font-light leading-relaxed mb-8">
+                        En devenant partenaire de notre association, vous contribuez directement à la formation d'une nouvelle génération de talents tout en renforçant la visibilité et l'engagement sociétal de votre organisation auprès d'une communauté dynamique de jeunes et d'acteurs du monde éducatif et économique.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="flex -space-x-2">
+                            <div class="w-8 h-8 rounded-full bg-[#0091FF]/30 border-2 border-[#050505] flex items-center justify-center text-[10px] font-semibold text-[#0091FF]">L</div>
+                            <div class="w-8 h-8 rounded-full bg-[#06C755]/30 border-2 border-[#050505] flex items-center justify-center text-[10px] font-semibold text-[#06C755]">A</div>
+                            <div class="w-8 h-8 rounded-full bg-[#FFC700]/30 border-2 border-[#050505] flex items-center justify-center text-[10px] font-semibold text-[#FFC700]">R</div>
+                        </div>
+                        <span class="text-sm text-gray-500">Bureau exécutif dédié</span>
+                    </div>
+                </div>
+                <div class="animate-on-scroll from-right visible">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-[#0091FF]/20 to-[#06C755]/20 rounded-2xl blur-xl"></div>
+                        <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/4-600x400.jpg" alt="Campus Al Kendi" class="relative rounded-2xl shadow-2xl w-full object-cover aspect-[3/2]">
+                        <div class="absolute bottom-4 left-4 glass rounded-lg px-4 py-2">
+                            <p class="text-xs font-medium text-white">Centre BTS Al Kendi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membres -->
+    <section class="py-24 relative bg-[#080808]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#06C755]/10 border border-[#06C755]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#06C755] tracking-wide">Notre Équipe</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">
+                    Les membres de <span class="text-gradient-green">l'association</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                <!-- President -->
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group lg:col-span-1 visible" style="transition-delay: 0ms;">
+                    <div class="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#0091FF] to-[#00D4FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-7 h-7 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <p class="text-[10px] font-semibold text-[#0091FF] tracking-widest uppercase mb-2">Présidente</p>
+                    <p class="text-sm font-medium text-white">Dr. Lamia ELJADIRI</p>
+                </div>
+                <!-- Vice-president -->
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 80ms;">
+                    <div class="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#06C755] to-[#00D4FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-7 h-7 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <p class="text-[10px] font-semibold text-[#06C755] tracking-widest uppercase mb-2">Vice-présidente</p>
+                    <p class="text-sm font-medium text-white">Pr. Amal EL ALAMA</p>
+                </div>
+                <!-- Tresoriere -->
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 160ms;">
+                    <div class="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#FFC700] to-[#FF8A00] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-7 h-7 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <p class="text-[10px] font-semibold text-[#FFC700] tracking-widest uppercase mb-2">Trésorière</p>
+                    <p class="text-sm font-medium text-white">Pr. Assia FADIL</p>
+                </div>
+                <!-- Tresoriere adj -->
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 240ms;">
+                    <div class="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#0091FF] to-[#06C755] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-7 h-7 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <p class="text-[10px] font-semibold text-[#00D4FF] tracking-widest uppercase mb-2">Trésorier adj.</p>
+                    <p class="text-sm font-medium text-white">Dr. Mohamed HOUSNI</p>
+                </div>
+                <!-- Secretaire -->
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 320ms;">
+                    <div class="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#C0C0C0] to-[#0091FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-7 h-7 text-white"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <p class="text-[10px] font-semibold text-gray-400 tracking-widest uppercase mb-2">Secrétaire gén.</p>
+                    <p class="text-sm font-medium text-white">Pr. Rachida ZATTI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section id="mission" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Mission -->
+                <div class="animate-on-scroll from-left visible">
+                    <div class="glass rounded-2xl p-8 md:p-10 h-full card-hover relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 w-48 h-48 bg-[#0091FF] rounded-full filter blur-[100px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                        <div class="relative z-10">
+                            <div class="w-12 h-12 rounded-xl bg-[#0091FF]/10 flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="target" aria-hidden="true" class="lucide lucide-target w-6 h-6 text-[#0091FF]"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                            </div>
+                            <h3 class="text-2xl font-semibold mb-4">Notre <span class="text-gradient-blue">Mission</span></h3>
+                            <p class="text-gray-400 font-light leading-relaxed mb-4">
+                                L'Association des Jeunes Al Kendi a pour mission de soutenir et d'accompagner les étudiants du centre BTS Al Kendi en favorisant leur développement académique, professionnel et personnel.
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#0091FF] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Améliorer la qualité de la formation</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#0091FF] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Renforcer la communication entre étudiants et établissement</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#0091FF] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Encourager l'engagement associatif et l'esprit d'initiative</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#0091FF] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Développer les compétences techniques, managériales et humaines</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#0091FF] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Faciliter l'insertion professionnelle des jeunes</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision -->
+                <div class="animate-on-scroll from-right visible">
+                    <div class="glass rounded-2xl p-8 md:p-10 h-full card-hover relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 w-48 h-48 bg-[#06C755] rounded-full filter blur-[100px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                        <div class="relative z-10">
+                            <div class="w-12 h-12 rounded-xl bg-[#06C755]/10 flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="eye" aria-hidden="true" class="lucide lucide-eye w-6 h-6 text-[#06C755]"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                            </div>
+                            <h3 class="text-2xl font-semibold mb-4">Notre <span class="text-gradient-green">Vision</span></h3>
+                            <p class="text-gray-400 font-light leading-relaxed mb-4">
+                                L'association aspire à former une génération de jeunes responsables, engagés et compétents, capables de contribuer activement au développement de la société.
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#06C755] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Devenir un acteur de référence en promotion de l'excellence académique</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#06C755] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Promouvoir l'innovation et les valeurs citoyennes</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#06C755] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Offrir un environnement stimulant favorisant l'épanouissement</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#06C755] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Renforcer la participation à des initiatives nationales et internationales</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-5 h-5 text-[#06C755] flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                    <span class="text-gray-400 text-sm font-light">Favoriser la créativité et l'ouverture sur le monde</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activités -->
+    <section id="activites" class="py-24 relative bg-[#080808]">
+        <div class="absolute inset-0 dot-pattern opacity-20"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#0091FF]/10 border border-[#0091FF]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#0091FF] tracking-wide">Activités &amp; Initiatives</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                    Nos réalisations &amp; <span class="text-gradient-blue">initiatives</span>
+                </h2>
+                <p class="text-gray-500 font-light max-w-2xl mx-auto">
+                    Notre établissement a organisé plusieurs activités visant à renforcer les compétences académiques, professionnelles et sociales des étudiants.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="animate-on-scroll glass rounded-xl overflow-hidden card-hover group visible" style="transition-delay: 0ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/22-400x250.jpg" alt="Compétitions scientifiques" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
+                        <div class="absolute top-3 left-3 bg-[#0091FF]/90 rounded-lg px-2.5 py-1">
+                            <span class="text-[10px] font-semibold text-white uppercase tracking-wider">Science &amp; Tech</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold mb-2">Compétitions scientifiques</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Participation à l'IAIO (Olympiade Internationale en Intelligence Artificielle) et réflexions au sommet GAIN sur la gouvernance de l'IA.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="animate-on-scroll glass rounded-xl overflow-hidden card-hover group visible" style="transition-delay: 100ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/360-400x250.jpg" alt="Conférences et Hackathons" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
+                        <div class="absolute top-3 left-3 bg-[#06C755]/90 rounded-lg px-2.5 py-1">
+                            <span class="text-[10px] font-semibold text-white uppercase tracking-wider">Formation</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold mb-2">Conférences &amp; Hackathons</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Organisation de conférences, ateliers de formation, hackathons et rencontres avec des professionnels du secteur.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="animate-on-scroll glass rounded-xl overflow-hidden card-hover group visible" style="transition-delay: 200ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/916-400x250.jpg" alt="Engagement citoyen" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
+                        <div class="absolute top-3 left-3 bg-[#FFC700]/90 rounded-lg px-2.5 py-1">
+                            <span class="text-[10px] font-semibold text-black uppercase tracking-wider">Social</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold mb-2">Engagement citoyen</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Visites d'orphelinats, maisons de retraite, protection des animaux et actions solidaires durant le mois de Ramadan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Événements à réaliser -->
+    <section id="evenements" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#06C755]/10 border border-[#06C755]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#06C755] tracking-wide">Événements 2026</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                    Événements <span class="text-gradient-green">multidisciplinaires</span>
+                </h2>
+                <p class="text-gray-500 font-light max-w-2xl mx-auto">
+                    Créer la synergie entre les trois filières — IA, Développement Informatique et Comptabilité &amp; Gestion — à travers des événements favorisant la collaboration interdisciplinaire.
+                </p>
+            </div>
+
+            <!-- Events Timeline -->
+            <div class="relative max-w-4xl mx-auto">
+                <div class="timeline-line hidden md:block"></div>
+
+                <div class="space-y-8">
+                    <!-- Event 1 -->
+                    <div class="animate-on-scroll relative md:flex items-center visible">
+                        <div class="md:w-1/2 md:pr-12 md:text-right">
+                            <div class="glass rounded-xl p-6 card-hover">
+                                <div class="flex items-center gap-2 md:justify-end mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mic" aria-hidden="true" class="lucide lucide-mic w-4 h-4 text-[#0091FF]"><path d="M12 19v3"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><rect x="9" y="2" width="6" height="13" rx="3"></rect></svg>
+                                    <span class="text-[10px] font-semibold text-[#0091FF] uppercase tracking-widest">Conférence Phare</span>
+                                </div>
+                                <h3 class="text-lg font-semibold mb-2">Synergie des Talents</h3>
+                                <p class="text-gray-400 text-sm font-light leading-relaxed">Conférence réunissant experts en IA, développeurs, gestionnaires et entrepreneurs autour du thème : IA, Digital et Management au service de l'innovation.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#0091FF] border-4 border-[#050505] z-10"></div>
+                        <div class="md:w-1/2 md:pl-12"></div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="animate-on-scroll relative md:flex items-center visible">
+                        <div class="md:w-1/2 md:pr-12"></div>
+                        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#06C755] border-4 border-[#050505] z-10"></div>
+                        <div class="md:w-1/2 md:pl-12">
+                            <div class="glass rounded-xl p-6 card-hover">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trophy" aria-hidden="true" class="lucide lucide-trophy w-4 h-4 text-[#06C755]"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"></path><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"></path><path d="M18 9h1.5a1 1 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"></path><path d="M6 9H4.5a1 1 0 0 1 0-5H6"></path></svg>
+                                    <span class="text-[10px] font-semibold text-[#06C755] uppercase tracking-widest">Compétition</span>
+                                </div>
+                                <h3 class="text-lg font-semibold mb-2">Al Kendi Innovation Challenge</h3>
+                                <p class="text-gray-400 text-sm font-light leading-relaxed">Concours de projets multidisciplinaires évalués par des experts, favorisant l'innovation et la créativité des étudiants.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 3 -->
+                    <div class="animate-on-scroll relative md:flex items-center visible">
+                        <div class="md:w-1/2 md:pr-12 md:text-right">
+                            <div class="glass rounded-xl p-6 card-hover">
+                                <div class="flex items-center gap-2 md:justify-end mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="database" aria-hidden="true" class="lucide lucide-database w-4 h-4 text-[#00D4FF]"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg>
+                                    <span class="text-[10px] font-semibold text-[#00D4FF] uppercase tracking-widest">Atelier</span>
+                                </div>
+                                <h3 class="text-lg font-semibold mb-2">Data &amp; Décision</h3>
+                                <p class="text-gray-400 text-sm font-light leading-relaxed">Apprendre à exploiter la donnée dans un contexte réel, de la conception à la prise de décision éclairée.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#00D4FF] border-4 border-[#050505] z-10"></div>
+                        <div class="md:w-1/2 md:pl-12"></div>
+                    </div>
+
+                    <!-- Event 4 -->
+                    <div class="animate-on-scroll relative md:flex items-center visible">
+                        <div class="md:w-1/2 md:pr-12"></div>
+                        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#FFC700] border-4 border-[#050505] z-10"></div>
+                        <div class="md:w-1/2 md:pl-12">
+                            <div class="glass rounded-xl p-6 card-hover">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="presentation" aria-hidden="true" class="lucide lucide-presentation w-4 h-4 text-[#FFC700]"><path d="M2 3h20"></path><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"></path><path d="m7 21 5-5 5 5"></path></svg>
+                                    <span class="text-[10px] font-semibold text-[#FFC700] uppercase tracking-widest">Journée</span>
+                                </div>
+                                <h3 class="text-lg font-semibold mb-2">Pitch &amp; Invest</h3>
+                                <p class="text-gray-400 text-sm font-light leading-relaxed">Développer les compétences techniques et Soft Skills à travers des exercices de pitch et de présentation de projets.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 5 -->
+                    <div class="animate-on-scroll relative md:flex items-center visible">
+                        <div class="md:w-1/2 md:pr-12 md:text-right">
+                            <div class="glass rounded-xl p-6 card-hover">
+                                <div class="flex items-center gap-2 md:justify-end mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="compass" aria-hidden="true" class="lucide lucide-compass w-4 h-4 text-[#0091FF]"><circle cx="12" cy="12" r="10"></circle><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path></svg>
+                                    <span class="text-[10px] font-semibold text-[#0091FF] uppercase tracking-widest">Forum</span>
+                                </div>
+                                <h3 class="text-lg font-semibold mb-2">Forum d'Orientation</h3>
+                                <p class="text-gray-400 text-sm font-light leading-relaxed">Accompagner les élèves et étudiants dans leur choix d'orientation à travers des séances de conseil et de partage d'expériences avec des professionnels.</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#0091FF] border-4 border-[#050505] z-10"></div>
+                        <div class="md:w-1/2 md:pl-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets à impact durable -->
+    <section class="py-24 relative bg-[#080808]">
+        <div class="absolute inset-0 dot-pattern opacity-20"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#FFC700]/10 border border-[#FFC700]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#FFC700] tracking-wide">Impact Durable</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                    Projets à <span class="text-gradient-gold">impact durable</span>
+                </h2>
+                <p class="text-gray-500 font-light max-w-2xl mx-auto italic">
+                    « Le vrai bonheur consiste à rendre les autres heureux. »
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Environmental -->
+                <div class="animate-on-scroll glass rounded-xl p-8 card-hover group relative overflow-hidden visible">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-[#06C755] rounded-full filter blur-[80px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 rounded-xl bg-[#06C755]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="leaf" aria-hidden="true" class="lucide lucide-leaf w-7 h-7 text-[#06C755]"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Impact Environnemental</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Verdissement d'une école, réalisation de conduites d'eau d'un village, plantations d'arbres…</p>
+                    </div>
+                </div>
+
+                <!-- Social -->
+                <div class="animate-on-scroll glass rounded-xl p-8 card-hover group relative overflow-hidden visible" style="transition-delay: 80ms;">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-[#0091FF] rounded-full filter blur-[80px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 rounded-xl bg-[#0091FF]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart-handshake" aria-hidden="true" class="lucide lucide-heart-handshake w-7 h-7 text-[#0091FF]"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Impact Social</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Amélioration des conditions de vie de jeunes en situation difficile, soutien et réinsertion, solidarité face au séisme…</p>
+                    </div>
+                </div>
+
+                <!-- Health -->
+                <div class="animate-on-scroll glass rounded-xl p-8 card-hover group relative overflow-hidden visible" style="transition-delay: 160ms;">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-[#FF3B3B] rounded-full filter blur-[80px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 rounded-xl bg-[#FF3B3B]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart-pulse" aria-hidden="true" class="lucide lucide-heart-pulse w-7 h-7 text-[#FF3B3B]"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Impact Santé</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Soutien de jeunes en situation de handicap, réaménagement d'espaces pour l'accessibilité et les normes de santé sécurité…</p>
+                    </div>
+                </div>
+
+                <!-- Revenue -->
+                <div class="animate-on-scroll glass rounded-xl p-8 card-hover group relative overflow-hidden visible" style="transition-delay: 240ms;">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-[#FFC700] rounded-full filter blur-[80px] opacity-5 group-hover:opacity-10 transition-opacity"></div>
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 rounded-xl bg-[#FFC700]/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trending-up" aria-hidden="true" class="lucide lucide-trending-up w-7 h-7 text-[#FFC700]"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Activités Génératrices de Revenu</h3>
+                        <p class="text-gray-400 text-sm font-light leading-relaxed">Création d'opportunités de génération de revenus pour des jeunes en situation défavorisée, petits commerces et entreprises…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunités de partenariat -->
+    <section class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#0091FF]/10 border border-[#0091FF]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#0091FF] tracking-wide">Partenariat</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                    Opportunités de <span class="text-gradient-blue">partenariat</span>
+                </h2>
+                <p class="text-gray-500 font-light max-w-2xl mx-auto">
+                    En devenant partenaire officiel de notre association, votre entreprise bénéficiera d'un positionnement stratégique au cœur d'un environnement éducatif dynamique.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#0091FF]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="eye" aria-hidden="true" class="lucide lucide-eye w-6 h-6 text-[#0091FF]"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Visibilité importante</h4>
+                    <p class="text-gray-400 text-sm font-light">Grâce aux différents événements organisés tout au long de l'année</p>
+                </div>
+
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 80ms;">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#06C755]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="building-2" aria-hidden="true" class="lucide lucide-building-2 w-6 h-6 text-[#06C755]"><path d="M10 12h4"></path><path d="M10 8h4"></path><path d="M14 21v-3a2 2 0 0 0-4 0v3"></path><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Présence multi-établissements</h4>
+                    <p class="text-gray-400 text-sm font-light">Élargit la portée de votre communication</p>
+                </div>
+
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 160ms;">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#FFC700]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true" class="lucide lucide-users w-6 h-6 text-[#FFC700]"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Public qualifié</h4>
+                    <p class="text-gray-400 text-sm font-light">Accès direct aux élèves, parents et enseignants</p>
+                </div>
+
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 240ms;">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#00D4FF]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-6 h-6 text-[#00D4FF]"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Image valorisée</h4>
+                    <p class="text-gray-400 text-sm font-light">Soutien à des activités éducatives et associatives</p>
+                </div>
+
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 320ms;">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#0091FF]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="handshake" aria-hidden="true" class="lucide lucide-handshake w-6 h-6 text-[#0091FF]"><path d="m11 17 2 2a1 1 0 1 0 3-3"></path><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path><path d="m21 3 1 11h-2"></path><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path><path d="M3 4h8"></path></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Networking &amp; Recrutement</h4>
+                    <p class="text-gray-400 text-sm font-light">Opportunités de recrutement de jeunes talents</p>
+                </div>
+
+                <div class="animate-on-scroll glass rounded-xl p-6 text-center card-hover group visible" style="transition-delay: 400ms;">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-[#06C755]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="repeat" aria-hidden="true" class="lucide lucide-repeat w-6 h-6 text-[#06C755]"><path d="m17 2 4 4-4 4"></path><path d="M3 11v-1a4 4 0 0 1 4-4h14"></path><path d="m7 22-4-4 4-4"></path><path d="M21 13v1a4 4 0 0 1-4 4H3"></path></svg>
+                    </div>
+                    <h4 class="font-semibold mb-2">Notoriété durable</h4>
+                    <p class="text-gray-400 text-sm font-light">Renforcement grâce à la répétition des événements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formules de Sponsoring -->
+    <section id="sponsoring" class="py-24 relative bg-[#080808]">
+        <div class="absolute inset-0 dot-pattern opacity-20"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#FFC700]/10 border border-[#FFC700]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#FFC700] tracking-wide">Sponsoring</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+                    Formules de <span class="text-gradient-gold">sponsoring</span>
+                </h2>
+                <p class="text-gray-500 font-light max-w-2xl mx-auto italic">
+                    « Donner, ce n'est pas seulement offrir de l'argent, c'est partager une vision et soutenir un avenir. »
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <!-- Bronze -->
+                <div class="animate-on-scroll glass rounded-2xl overflow-hidden card-hover pricing-bronze relative visible">
+                    <div class="p-8">
+                        <div class="flex items-center gap-2 mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield" aria-hidden="true" class="lucide lucide-shield w-5 h-5 text-[#CD7F32]"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+                            <span class="text-[10px] font-semibold text-[#CD7F32] uppercase tracking-widest">Bronze</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-1">Sponsor Bronze</h3>
+                        <p class="text-xs text-gray-500 mb-6">Partenaire Officiel</p>
+
+                        <div class="mb-6">
+                            <span class="text-3xl font-semibold text-white">5 000</span>
+                            <span class="text-lg text-gray-400"> — 10 000</span>
+                            <span class="text-sm text-gray-500 ml-1">DHs</span>
+                        </div>
+
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#CD7F32] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Logo sur les affiches officielles</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#CD7F32] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Attestation de sponsoring</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#CD7F32] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Remerciements publics lors de l'événement</span>
+                            </li>
+                        </ul>
+
+                        <div class="pt-4 border-t border-white/5">
+                            <p class="text-xs text-gray-500 mb-4">Objectif : Affirmer son engagement envers les initiatives étudiantes et soutenir les jeunes talents</p>
+                            <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="block w-full text-center border border-[#CD7F32]/30 text-[#CD7F32] hover:bg-[#CD7F32]/10 font-medium py-2.5 rounded-lg transition-all duration-300 text-sm">
+                                Choisir Bronze
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Silver -->
+                <div class="animate-on-scroll glass rounded-2xl overflow-hidden card-hover pricing-silver relative visible" style="transition-delay: 100ms;">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#C0C0C0] to-transparent"></div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-2 mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" aria-hidden="true" class="lucide lucide-shield-check w-5 h-5 text-[#C0C0C0]"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                            <span class="text-[10px] font-semibold text-[#C0C0C0] uppercase tracking-widest">Silver</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-1">Sponsor Silver</h3>
+                        <p class="text-xs text-gray-500 mb-6">Partenaire Privilégié</p>
+
+                        <div class="mb-6">
+                            <span class="text-3xl font-semibold text-white">11 000</span>
+                            <span class="text-lg text-gray-400"> — 20 000</span>
+                            <span class="text-sm text-gray-500 ml-1">DHs</span>
+                        </div>
+
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#C0C0C0] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Tous les avantages Bronze</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#C0C0C0] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Mise en avant sur les réseaux sociaux</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#C0C0C0] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Certificat officiel de partenariat</span>
+                            </li>
+                        </ul>
+
+                        <div class="pt-4 border-t border-white/5">
+                            <p class="text-xs text-gray-500 mb-4">Objectif : Accroître sa notoriété auprès d'un public jeune et dynamique</p>
+                            <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="block w-full text-center border border-[#C0C0C0]/30 text-[#C0C0C0] hover:bg-[#C0C0C0]/10 font-medium py-2.5 rounded-lg transition-all duration-300 text-sm">
+                                Choisir Silver
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gold -->
+                <div class="animate-on-scroll glass rounded-2xl overflow-hidden card-hover pricing-gold relative visible" style="transition-delay: 200ms;">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#FFC700] to-transparent"></div>
+                    <div class="absolute -top-20 -right-20 w-40 h-40 bg-[#FFC700] rounded-full filter blur-[80px] opacity-5"></div>
+
+                    <!-- Popular badge -->
+                    <div class="absolute top-4 right-4">
+                        <span class="bg-[#FFC700] text-black text-[10px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">Recommandé</span>
+                    </div>
+
+                    <div class="p-8">
+                        <div class="flex items-center gap-2 mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="crown" aria-hidden="true" class="lucide lucide-crown w-5 h-5 text-[#FFC700]"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"></path><path d="M5 21h14"></path></svg>
+                            <span class="text-[10px] font-semibold text-[#FFC700] uppercase tracking-widest">Gold</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-1">Sponsor Gold</h3>
+                        <p class="text-xs text-gray-500 mb-6">Partenaire Principal</p>
+
+                        <div class="mb-6">
+                            <span class="text-3xl font-semibold text-white">21 000+</span>
+                            <span class="text-sm text-gray-500 ml-1">DHs</span>
+                        </div>
+
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#FFC700] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Visibilité prioritaire du logo sur tous les supports</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#FFC700] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Mention spéciale durant l'événement</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-4 h-4 text-[#FFC700] flex-shrink-0 mt-0.5"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span class="text-gray-400 text-sm font-light">Attestation spéciale de sponsor majeur</span>
+                            </li>
+                        </ul>
+
+                        <div class="pt-4 border-t border-white/5">
+                            <p class="text-xs text-gray-500 mb-4">Objectif : Se positionner comme acteur clé et bénéficier d'une visibilité maximale</p>
+                            <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="block w-full text-center bg-[#FFC700] hover:bg-[#e6b400] text-black font-semibold py-2.5 rounded-lg transition-all duration-300 text-sm hover:scale-[1.02]">
+                                Choisir Gold
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion / CTA -->
+    <section class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-[#0091FF]/5 via-transparent to-[#06C755]/5"></div>
+        <div class="floating-shape w-96 h-96 bg-[#0091FF] -top-48 -left-48" style="animation-delay: 2s;"></div>
+        <div class="floating-shape w-80 h-80 bg-[#06C755] -bottom-40 -right-40" style="animation-delay: 4s;"></div>
+
+        <div class="max-w-3xl mx-auto px-6 text-center relative z-10 animate-on-scroll visible">
+            <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 mb-8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-3 h-3 text-[#FFC700]"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>
+                <span class="text-xs font-medium text-gray-300 tracking-wide">Conclusion</span>
+            </div>
+
+            <h2 class="text-3xl md:text-5xl font-semibold tracking-tight mb-6">
+                Construisons ensemble<br><span class="text-gradient-blue">l'avenir</span>
+            </h2>
+
+            <p class="text-gray-400 font-light leading-relaxed mb-6 text-lg">
+                En soutenant notre association, vous contribuez activement au développement des initiatives éducatives, culturelles et sociales destinées aux jeunes.
+            </p>
+
+            <p class="text-gray-500 font-light leading-relaxed mb-10">
+                Ce partenariat représente une opportunité de valoriser votre image, renforcer votre visibilité et affirmer votre engagement sociétal, tout en participant à la formation et à l'accompagnement de la jeunesse.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#contact" class="bg-[#0091FF] hover:bg-[#0077CC] text-white font-medium px-10 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" aria-hidden="true" class="lucide lucide-mail w-4 h-4"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                    <span>Nous contacter</span>
+                </a>
+                <a href="https://superlative-torrone-ba2adc.netlify.app/#sponsoring" class="glass-light text-white font-medium px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:bg-white/10 flex items-center gap-2">
+                    <span>Voir les formules</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-up" aria-hidden="true" class="lucide lucide-arrow-up w-4 h-4"><path d="m5 12 7-7 7 7"></path><path d="M12 19V5"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 relative bg-[#080808]">
+        <div class="absolute inset-0 dot-pattern opacity-20"></div>
+        <div class="max-w-5xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16 animate-on-scroll visible">
+                <div class="inline-flex items-center gap-2 bg-[#0091FF]/10 border border-[#0091FF]/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-xs font-medium text-[#0091FF] tracking-wide">Contact</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">
+                    Contactez-<span class="text-gradient-blue">nous</span>
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Contact Info -->
+                <div class="animate-on-scroll from-left space-y-6 visible">
+                    <div class="glass rounded-xl p-6 flex items-start gap-4 card-hover">
+                        <div class="w-12 h-12 rounded-xl bg-[#0091FF]/10 flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" aria-hidden="true" class="lucide lucide-user w-6 h-6 text-[#0091FF]"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Présidente de l'association</h4>
+                            <p class="text-gray-400 text-sm font-light">Dr. Lamia ELJADIRI</p>
+                        </div>
+                    </div>
+
+                    <div class="glass rounded-xl p-6 flex items-start gap-4 card-hover">
+                        <div class="w-12 h-12 rounded-xl bg-[#06C755]/10 flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone w-6 h-6 text-[#06C755]"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Téléphone</h4>
+                            <p class="text-gray-400 text-sm font-light">+212 6 XX XX XX XX</p>
+                        </div>
+                    </div>
+
+                    <div class="glass rounded-xl p-6 flex items-start gap-4 card-hover">
+                        <div class="w-12 h-12 rounded-xl bg-[#FFC700]/10 flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" aria-hidden="true" class="lucide lucide-mail w-6 h-6 text-[#FFC700]"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Email</h4>
+                            <p class="text-gray-400 text-sm font-light">contact@ajk.ma</p>
+                        </div>
+                    </div>
+
+                    <div class="glass rounded-xl p-6 flex items-start gap-4 card-hover">
+                        <div class="w-12 h-12 rounded-xl bg-[#00D4FF]/10 flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin w-6 h-6 text-[#00D4FF]"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Adresse</h4>
+                            <p class="text-gray-400 text-sm font-light">Centre BTS Al Kendi, Maroc</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="animate-on-scroll from-right visible">
+                    <form id="contact-form" class="glass rounded-2xl p-8 space-y-5">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Nom complet</label>
+                            <input type="text" required="" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-[#0091FF]/50 focus:ring-1 focus:ring-[#0091FF]/20 transition-all" placeholder="Votre nom">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                            <input type="email" required="" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-[#0091FF]/50 focus:ring-1 focus:ring-[#0091FF]/20 transition-all" placeholder="votre@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Formule souhaitée</label>
+                            <select class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-gray-400 focus:outline-none focus:border-[#0091FF]/50 focus:ring-1 focus:ring-[#0091FF]/20 transition-all appearance-none" style="background-image: url(&#39;data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 fill=%22%236b7280%22 viewBox=%220 0 16 16%22%3E%3Cpath d=%22M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z%22/%3E%3C/svg%3E&#39;); background-repeat: no-repeat; background-position: right 12px center; background-size: 12px;">
+                                <option value="">Sélectionner une formule</option>
+                                <option value="bronze">Sponsor Bronze (5 000 — 10 000 DHs)</option>
+                                <option value="silver">Sponsor Silver (11 000 — 20 000 DHs)</option>
+                                <option value="gold">Sponsor Gold (21 000+ DHs)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                            <textarea rows="4" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-[#0091FF]/50 focus:ring-1 focus:ring-[#0091FF]/20 transition-all resize-none" placeholder="Votre message..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-[#0091FF] hover:bg-[#0077CC] text-white font-medium py-3.5 rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-blue-500/20 flex items-center justify-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true" class="lucide lucide-send w-4 h-4"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>
+                            <span>Envoyer le message</span>
+                        </button>
+                        <div id="form-success" class="text-center py-3 bg-[#06C755]/10 border border-[#06C755]/20 rounded-lg hidden">
+                            <p class="text-sm text-[#06C755] font-medium flex items-center justify-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-4 h-4"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                                Message envoyé avec succès !
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 bg-[#050505]">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <div class="flex items-center gap-3">
+                    <img src="./AJK — Association des Jeunes Al Kendi _ Dossier de Sponsoring 2026_files/89096c57-f670-4df0-96a4-59c50b739e0f.png" alt="AJK Logo" class="h-10 w-10 rounded-full">
+                    <div>
+                        <p class="font-semibold text-sm">Association des Jeunes Al Kendi</p>
+                        <p class="text-xs text-gray-500">Dossier de Sponsoring 2026</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center gap-6">
+                    <a href="https://superlative-torrone-ba2adc.netlify.app/#apropos" class="text-xs text-gray-500 hover:text-[#0091FF] transition-colors">À propos</a>
+                    <a href="https://superlative-torrone-ba2adc.netlify.app/#mission" class="text-xs text-gray-500 hover:text-[#0091FF] transition-colors">Mission</a>
+                    <a href="https://superlative-torrone-ba2adc.netlify.app/#activites" class="text-xs text-gray-500 hover:text-[#0091FF] transition-colors">Activités</a>
+                    <a href="https://superlative-torrone-ba2adc.netlify.app/#sponsoring" class="text-xs text-gray-500 hover:text-[#0091FF] transition-colors">Sponsoring</a>
+                </div>
+
+                <div class="text-right">
+                    <p class="text-xs text-gray-600">© 2026 AJK. Tous droits réservés.</p>
+                    <p class="text-xs text-gray-600 mt-1">Centre BTS Al Kendi, Maroc</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-[#0091FF] text-white flex items-center justify-center shadow-lg shadow-blue-500/20 transition-all duration-300 hover:scale-110 z-50 opacity-0 translate-y-4 pointer-events-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-up" aria-hidden="true" class="lucide lucide-chevron-up w-5 h-5"><path d="m18 15-6-6-6 6"></path></svg>
+    </button>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    const delay = entry.target.style.transitionDelay || '0ms';
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, parseInt(delay));
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                navbar.style.borderBottom = '1px solid rgba(255,255,255,0.05)';
+            } else {
+                navbar.style.borderBottom = 'none';
+            }
+
+            lastScroll = currentScroll;
+        });
+
+        // Back to top button
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 600) {
+                backToTop.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+                backToTop.classList.add('opacity-100', 'translate-y-0');
+            } else {
+                backToTop.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+                backToTop.classList.remove('opacity-100', 'translate-y-0');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Active nav link highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('nav-active');
+                }
+            });
+        });
+
+        // Contact form handling
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Show success message
+            formSuccess.classList.remove('hidden');
+            
+            // Reset form
+            contactForm.reset();
+            
+            // Hide success after 4 seconds
+            setTimeout(() => {
+                formSuccess.classList.add('hidden');
+            }, 4000);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body></html>
